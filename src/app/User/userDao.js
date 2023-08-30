@@ -7,6 +7,7 @@ async function selectUser(connection) {
   const [userRows] = await connection.query(selectUserListQuery);
   return userRows;
 }
+//test
 
 // 이메일로 회원 조회
 async function selectUserEmail(connection, email) {
